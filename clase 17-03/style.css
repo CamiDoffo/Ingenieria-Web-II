@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    font-size: 120px;
+}
+#para1{
+    color: brown;
+}
+.center{
+    text-align: center;
+    color: greenyellow;
+}
+p.center{
+    background-color: aquamarine;
+}

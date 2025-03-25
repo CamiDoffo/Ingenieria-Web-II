@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: Lato, sans-serif;
+    margin: 0;
+    background-color: E5E5E5;
+    width: 360px;
+    height: 800px;
+}
+.logo-container{
+    align-items: center;
+}
+.login-base{
+    display: flex;
+    width: 340px;
+    padding: 103px 10px 188px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 118px;
+    height: 509px;
+}
+.login{
+    /* width: 320px; */
+    height: 297px;
+    /* align-items: center;
+    justify-content: space-between; */
+    text-align: center;
+}
+.input{
+    width: 333px;
+    height: 110px;
+    gap: 10px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.usuario-input, .contraseña-input{
+    width: 333px;
+}
+#usuario{
+    background: rgba(48, 63, 159, 0.20);
+}
+#usuario, #contraseña{
+    width: 333px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    align-items: center;
+}
+i{
+    color: gray;
+    margin-right: 10px;
+}
+#contraseña{
+    background-color: #F7F7F7;
+}
+.olvidaste-contraseña{
+    padding-top: 16px;
+    text-align: right;
+}
+#olvidaste-link{
+    color: rgba(28, 25, 57, 0.80);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+}
+.login-boton{
+    display: flex;
+    width: 333px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #311b92;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.register-text{
+    color: rgba(28, 25, 57, 0.80);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    /* Body - 15 R */
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+#registrate-link{
+    color: rgba(28, 25, 57, 0.80);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
