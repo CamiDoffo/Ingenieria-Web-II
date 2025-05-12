@@ -6,7 +6,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-            <img id="vector" src="../img/Vector.png" alt="vector"><br>
-            <img id="logo" src="../img/Logo.svg" alt="Logo">
+        <img id="vector" src="../img/Vector.png" alt="vector"><br>
+        <img id="logo" class="fade-in" src="../img/Logo.svg" alt="Logo">
+        <script>
+            setTimeout(function() {
+                document.body.classList.add("blur-fade-out");
+                // Espera a que termine la animación (800ms) y luego redirige
+                setTimeout(function() {
+                    window.location.href = "../login/login.html";
+                }, 800); // debe coincidir con la duración de la animación
+            }, 5000);
+        </script>
     </body>
 </html>

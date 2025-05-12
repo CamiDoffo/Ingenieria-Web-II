@@ -13,8 +13,8 @@
             <div class="logo-container">
                 <img id="pequeño" src="../img/Logo_pequeño.png" alt="Logo"><br>
             </div>
-            <form class="login">
-                <div class="input">
+            <div class="login">
+                <form class="input">
                     <div class="usuario-input">
                         <i class="fas fa-user"></i>
                         <input id="usuario"  type="text" placeholder="Usuario"><br>
@@ -23,14 +23,15 @@
                         <i class="fas fa-envelope"></i>
                         <input id="contraseña" type="password" placeholder="Contraseña"><br>
                     </div>
-                </div>
+                </form>
                 <div class="olvidaste-contraseña">
                     <a id="olvidaste-link" href="http://nose">Olvidaste tu contraseña?</a>
                 </div>
                 <br>
-                <button class="login-boton">Iniciar sesión</button><br>
+                <script src="../script.js"></script>
+                <button onclick="loading()" class="login-boton">Iniciar sesión</button><br>
                 <p class="register-text">No tenés una cuenta? - <a id="registrate-link" href="#">Regístrate</a></p><br>
-            </form>
+            </div>
         </div>
     </body>
 </html>
